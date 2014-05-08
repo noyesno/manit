@@ -1,0 +1,63 @@
+
+body {
+  max-width:960px;
+  min-height:80%;
+  margin:auto;
+  margin-bottom:2em;
+  background-color:#eeffee;
+  text-align:center;
+}
+input, button {
+  font-size:2em;
+  border-radius: 5px;
+  border: 1px solid gray;
+  line-height: 130%;
+  padding:3px 6px;
+}
+table {
+  width:100%;
+  border-collapse:collapse;
+  line-height:180%;
+}
+
+tr {
+  border:1px dashed #9999ff;
+  border-width:1px 0;
+}
+
+table caption {
+  color:#ff99ff;  
+  font-size:1.3em;
+  text-align:left;
+}
+
+h1 > p {
+  margin: 0;
+  font-size: medium;
+  font-weight: normal;
+}
+
+h2 {
+  color:#ff99ff;  
+}
+
+.hint {
+  color:gray;
+}
+
+
+#docwin {
+  position: fixed;
+  border:0;
+  top: 0; right: 1pt;
+  width: 70%; height: 100%;
+  max-width: 1080px;
+  display:none;
+  border-left: 0.5em solid lightblue;
+}
+
+.aside {
+  text-align: left;
+  margin-left: 0.5em;
+  max-width:480px;
+}
